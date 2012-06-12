@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet
+       xmlns="http://www.w3.org/1999/xhtml"
 	xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 	xmlns:dyn="http://exslt.org/dynamic"
     xmlns:exsl="http://exslt.org/common"
@@ -72,7 +73,7 @@
 <br/>
 <div>© Roger S. Bagnall and Giovanni Ruffini 2012</div>
 <br/>
-<div><a href="index.html">Table of Contents</a></div>
+<div><a href="index.xhtml">Table of Contents</a></div>
 </div>
   
   <xsl:apply-templates  select="$node"/>
@@ -112,7 +113,7 @@
  </xsl:template>
  
  <xsl:template match="@href[parent::h:a[@class='noteref']]">
- <xsl:attribute name="href">notes.html<xsl:value-of select="."/></xsl:attribute>
+ <xsl:attribute name="href">notes.xhtml<xsl:value-of select="."/></xsl:attribute>
  </xsl:template>
 
  <xsl:template match="@xml:lang">
@@ -155,7 +156,7 @@
  </xsl:template>
 
  <xsl:template match="h:b[@class='catalogref']">
- <b><a target="_new" href="texts.html#catalog{.}"><xsl:apply-templates/></a></b>
+ <b><a target="_new" href="texts.xhtml#catalog{.}"><xsl:apply-templates/></a></b>
  </xsl:template>
  
  <xsl:template match="@style[parent::h:img[(@class='block') or (@class='page')]]"/>
