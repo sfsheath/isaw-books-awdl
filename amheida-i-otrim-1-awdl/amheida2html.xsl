@@ -9,28 +9,28 @@
 	   version="1.0"
 	   exclude-result-prefixes="h dyn fn"
 	   xmlns:h="http://www.w3.org/1999/xhtml">
- <xsl:output encoding="UTF-8" indent="yes" method="html" omit-xml-declaration="no" cdata-section-elements=""/>
+ <xsl:output encoding="UTF-8" indent="yes" method="xml" omit-xml-declaration="no" cdata-section-elements=""/>
  <xsl:preserve-space elements="h:script"/>
 <xsl:template match="/">
- <saxon:output method="html" href="preface.html">
+ <saxon:output method="xml" href="preface.xhtml">
 <xsl:call-template name="chunk" ><xsl:with-param name="node" select="//h:div[@id='preface']"/></xsl:call-template>
 </saxon:output>
- <saxon:output method="html" href="editorial.html">
+ <saxon:output method="xml" href="editorial.xhtml">
 <xsl:call-template name="chunk" ><xsl:with-param name="node" select="//h:div[@id='section0']"/></xsl:call-template>
 </saxon:output>
- <saxon:output method="html" href="introduction.html">
+ <saxon:output method="xml" href="introduction.xhtml">
 <xsl:call-template name="chunk" >
  <xsl:with-param name="node" select="//h:div[@id='section1']"/>
  <xsl:with-param name="node2" select="//h:div[@id='plates']"/>
 </xsl:call-template>
 </saxon:output>
-<saxon:output method="html" href="texts.html">
+<saxon:output method="xml" href="texts.xhtml">
 <xsl:call-template name="chunk" ><xsl:with-param name="node" select="//h:div[@id='section2']"/></xsl:call-template>
 </saxon:output>
- <saxon:output method="html" href="indices.html">
+ <saxon:output method="xml" href="indices.xhtml">
 <xsl:call-template name="chunk" ><xsl:with-param name="node" select="//h:div[@id='section3']"/></xsl:call-template>
 </saxon:output>
- <saxon:output method="html" href="notes.html">
+ <saxon:output method="xml" href="notes.xhtml">
 <xsl:call-template name="chunk" ><xsl:with-param name="node" select="//h:div[@id='section4']"/></xsl:call-template>
 </saxon:output>
 </xsl:template>
