@@ -64,5 +64,14 @@
  </xsl:template>
 
 
+ <xsl:template match="h:li[h:a[@href='#index']]"/>
+ <xsl:template match="h:div[@id='index']"/>
+ 
+ <xsl:template match="h:a[@class='index_entry_reference']"><xsl:apply-templates/></xsl:template>
+ <xsl:template match="h:a[@class='index_entry_reference_ff']"><xsl:apply-templates/></xsl:template>
+ 
+
 </xsl:stylesheet>
+
+
  
