@@ -26,7 +26,10 @@
      <img alt="Creative Commons License" style="border-width:0;margin-top:1em" src="http://i.creativecommons.org/l/by-nc/3.0/88x31.png" /> 
     </a>
     <p>Maps 1, 2 and 3 were produced and are copyright of the <a href="http://awmc.unc.edu/">Ancient World Mapping Center</a>.</p>
+    <br/>
+    <p>The printed version of this work is available for purchase from <a href="http://nyupress.org/books/book-details.aspx?bookid=11595#.US4bdaWT59k">NYU Press</a>.</p>
    </div>
+  
    <xsl:apply-templates/>
   </body>
 
