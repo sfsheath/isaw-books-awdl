@@ -25,7 +25,7 @@
     <a rel="cc:license" href="http://creativecommons.org/licenses/by-nc/3.0/"> 
      <img alt="Creative Commons License" style="border-width:0;margin-top:1em" src="http://i.creativecommons.org/l/by-nc/3.0/88x31.png" /> 
     </a>
-    <p>Maps 1, 2 and 3 were produced and are copyright of the Ancient World Mapping Center.</p>
+    <p>Maps 1, 2 and 3 were produced and are copyright of the <a href="http://awmc.unc.edu/">Ancient World Mapping Center</a>.</p>
    </div>
    <xsl:apply-templates/>
   </body>
