@@ -21,7 +21,7 @@
   
    <div style="text-align:center;background:#aaa;margin:1em;padding:2em">
     <p>This work is available at the URI <b>http://dlib.nyu.edu/awdl/isaw/hatke2013-aksum-and-nubia/</b> as part of the NYU Library's <a href="http://dlib.nyu.edu/awdl">Ancient World Digital Library</a> and in partnership with the <a href="http://isaw.nyu.edu/" >Institute for the Study of the Ancient World</a> (ISAW).  Further information about ISAW's publication program is available on the <a href="http://isaw.nyu.edu/publications">ISAW</a> website. Please note that while the base URI of this document is stable, the exact content available is still undergoing development. Please note that the text contains Syriac and Ge'ez characters which render properly when the appropriate fonts are installed. Readers may want to try the fonts available from <a href="http://www.bethmardutho.org/index.php/resources/fonts.html">Beth Mardutho</a>, as well as the Gentium Plus font from <a href="http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&amp;id=Gentium_download">SIL</a></p>
-    <p>©2013 George Hatke. Distributed under the terms of the Creative Commons Attribution No-derivatives License.</p>
+    <p>©2013 George Hatke. Distributed under the terms of the Creative Commons Attribution Non-Commercial License.</p>
     <a rel="cc:license" href="http://creativecommons.org/licenses/by-nc/3.0/"> 
      <img alt="Creative Commons License" style="border-width:0;margin-top:1em" src="http://i.creativecommons.org/l/by-nc/3.0/88x31.png" /> 
     </a>
@@ -40,7 +40,7 @@
   <xsl:element name="head">
    <xsl:apply-templates />
    <script src="http://isawnyu.github.com/awld-js/lib/requirejs/require.min.js" type="text/javascript"></script>
-   <script src="http://isawnyu.github.com/awld-js/awld.js" type="text/javascript"></script>
+   <script src="http://isawnyu.github.com/awld-js/awld.js?autoinit" type="text/javascript"></script>
   </xsl:element>
   </xsl:template>
 
