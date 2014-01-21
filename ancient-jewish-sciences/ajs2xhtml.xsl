@@ -82,7 +82,7 @@
    <script src="http://isawnyu.github.com/awld-js/awld.js" type="text/javascript"></script>
     <style type="text/css">
 
-        body {max-width:8.5in;margin:1in; margin-top:.5in; margin-bottom:1in; margin-left:1in; margin-right:1in; writing-mode:lr-tb;}
+        body {max-width:8.5in; margin-top:.5in; margin-bottom:1in; margin-left:1in; margin-right:1in; writing-mode:lr-tb;}
         p { font-size:12pt; line-height:1.4em; margin-bottom:0.139in; margin-top:0in;  text-indent:.5em;text-align:justify  }
      p.no_indent {text-indent:0}
      sup {
